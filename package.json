@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-digital-scientists-react-native",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslintrc",
+    "linter",
+    "lint",
+    "digital scientists"
+  ],
+  "author":
+    "Derric Beining <derrick.beining@gmail.com> (https://github.com/derrickbeining)",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native/issues"
+  },
+  "homepage":
+    "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5"
+  },
+  "peerDependencies": {
+    "eslint": "^4.6.0"
+  },
+  "dependencies": {
+    "eslint-plugin-react-native": "^3.2.1"
+  }
+}
