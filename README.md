@@ -2,7 +2,7 @@
 
 An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for React Native projects at [Digital Scientists](http://www.digitalscientists.com/).
 
-This config only provides a few rules specific to React Native rules, without any general React/JSX or vanilla JS rules. Therefore it should be coupled with `eslint-config-digital-scientists-base` ([here](https://github.com/digitalscientists/eslint-config-digital-scientists-base)) and `eslint-config-digital-scientists-react` ([here](https://github.com/digitalscientists/eslint-config-digital-scientists-react))
+This config only provides a few rules specific to React Native rules, without any general React/JSX or vanilla JS rules. Therefore it should be coupled with `eslint-config-digital-scientists-base` ([here](https://github.com/digitalscientists/eslint-config-digital-scientists-base)) and `eslint-config-digital-scientists-react` ([here](https://github.com/digitalscientists/eslint-config-digital-scientists-react)). Or you could just get all-in-one by using [eslint-config-digital-scientists](https://github.com/digitalscientists/eslint-config-digital-scientists).
 
 ## Installation
 
@@ -16,7 +16,7 @@ npm install --save-dev --save-exact \
   eslint-config-digital-scientists-react-native
 ```
 
-\*\*For convenience, you can get all these configs packaged together by simpling installing [eslint-config-digital-scientists](https://github.com/digitalscientists/eslint-config-digital-scientists).
+**For convenience, you can get all these configs packaged together by simpling installing [eslint-config-digital-scientists](https://github.com/digitalscientists/eslint-config-digital-scientists).**
 
 ## Usage
 
