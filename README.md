@@ -4,24 +4,6 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 
 This config only provides a few rules specific to React Native rules, without any general React/JSX or vanilla JS rules. Therefore it should be coupled with `eslint-config-digital-scientists-base` ([here](https://github.com/digitalscientists/eslint-config-digital-scientists-base)) and `eslint-config-digital-scientists-react` ([here](https://github.com/digitalscientists/eslint-config-digital-scientists-react))
 
-**For convenience, you can get all these configs packaged together by simpling installing `eslint-config-digital-scientists`. You can extend all Digital Scientists configs in your `.eslintrc` like this:**
-
-```json
-{
-  "extends": "digital-scientists",
-  "root": true
-}
-```
-
-Or you can extend individual packages within it like so:
-
-```json
-{
-  "extends": "digital-scientists/react",
-  "root": true
-}
-```
-
 ## Installation
 
 It's recommended to always install linting/formatting engines and configs **locally**, since supported rules and config specifics can change over time and may cause inconsistencies across projects if installed globally and updated over time.
@@ -34,7 +16,7 @@ npm install --save-dev --save-exact \
   eslint-config-digital-scientists-react-native
 ```
 
-Or checkout [eslint-config-digital-scientists](https://github.com/digitalscientists/eslint-config-digital-scientists) to get all these packaged togehter!
+\*\*For convenience, you can get all these configs packaged together by simpling installing [eslint-config-digital-scientists](https://github.com/digitalscientists/eslint-config-digital-scientists).
 
 ## Usage
 
