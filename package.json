@@ -1,17 +1,15 @@
 {
   "name": "eslint-config-digital-scientists-react-native",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "publish:npm":
-      "git add . && git commit -m 'update' && npm version minor&& git push --tags && npm publish",
+    "publish:npm": "git add . && git commit -m 'update' && npm version minor&& git push --tags && npm publish",
     "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url":
-      "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native"
+    "url": "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native"
   },
   "keywords": [
     "eslint",
@@ -21,15 +19,12 @@
     "lint",
     "digital scientists"
   ],
-  "author":
-    "Derric Beining <derrick.beining@gmail.com> (https://github.com/derrickbeining)",
+  "author": "Derric Beining <derrick.beining@gmail.com> (https://github.com/derrickbeining)",
   "license": "MIT",
   "bugs": {
-    "url":
-      "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native/issues"
+    "url": "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native/issues"
   },
-  "homepage":
-    "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native",
+  "homepage": "https://github.com/digitalscientists/eslint-config-digital-scientists-react-native",
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^4.19.1",
